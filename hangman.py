@@ -40,6 +40,15 @@ def __clear_console():
     system("cls") if os_name == "nt" else system("clear")
 
 
+#def __get_words(filepath):
+#    word_bank = []
+#
+#    with open(filepath, "r") as f:
+#        word_bank = [line.rstrip() for line in f]
+#
+#    return word_bank
+
+
 # Allows the user to select a dificulty based on the amount of mistakes
 def __difficulty_selection():
     __clear_console()
